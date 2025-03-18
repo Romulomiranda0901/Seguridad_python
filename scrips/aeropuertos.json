@@ -1,0 +1,2138 @@
+[
+    {
+        "Código IATA": "ABC",
+        "Nombre": "",
+        "Ciudad": "Albacete",
+        "País": "España",
+        "País ID": 215,
+        "Ciudad ID": 14444
+    },
+    {
+        "Código IATA": "ACE",
+        "Nombre": "",
+        "Ciudad": "Lanzarote",
+        "País": "España",
+        "País ID": 215,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "AEP",
+        "Nombre": "",
+        "Ciudad": "Buenos Aires",
+        "País": "Argentina",
+        "País ID": 11,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "AFA",
+        "Nombre": "",
+        "Ciudad": "San Rafael",
+        "País": "Argentina",
+        "País ID": 11,
+        "Ciudad ID": 32896
+    },
+    {
+        "Código IATA": "AGP",
+        "Nombre": "",
+        "Ciudad": "Málaga",
+        "País": "España",
+        "País ID": 215,
+        "Ciudad ID": 14416
+    },
+    {
+        "Código IATA": "ALC",
+        "Nombre": "",
+        "Ciudad": "Alicante",
+        "País": "España",
+        "País ID": 215,
+        "Ciudad ID": 14420
+    },
+    {
+        "Código IATA": "AMS",
+        "Nombre": "",
+        "Ciudad": "Ámsterdam",
+        "País": "Países Bajos",
+        "País ID": 156,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "AMA",
+        "Nombre": "",
+        "Ciudad": "Amarillo",
+        "País": "Estados Unidos",
+        "País ID": 242,
+        "Ciudad ID": 27715
+    },
+    {
+        "Código IATA": "ANF",
+        "Nombre": "",
+        "Ciudad": "Antofagasta",
+        "País": "Chile",
+        "País ID": 45,
+        "Ciudad ID": 36853
+    },
+    {
+        "Código IATA": "AOL",
+        "Nombre": "",
+        "Ciudad": "Paso de los Libres",
+        "País": "Argentina",
+        "País ID": 11,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "ARI",
+        "Nombre": "",
+        "Ciudad": "Arica",
+        "País": "Chile",
+        "País ID": 45,
+        "Ciudad ID": 36863
+    },
+    {
+        "Código IATA": "ARN",
+        "Nombre": "",
+        "Ciudad": "Estocolmo",
+        "País": "Suecia",
+        "País ID": 220,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "ASB",
+        "Nombre": "",
+        "Ciudad": "Turkmenistán",
+        "País": "Turkmenistán",
+        "País ID": 234,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "ASU",
+        "Nombre": "",
+        "Ciudad": "Asunción",
+        "País": "Paraguay",
+        "País ID": 175,
+        "Ciudad ID": 37599
+    },
+    {
+        "Código IATA": "ATH",
+        "Nombre": "",
+        "Ciudad": "Atenas",
+        "País": "Grecia",
+        "País ID": 88,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "AUA",
+        "Nombre": "",
+        "Ciudad": "Oranjestad",
+        "País": "Países Bajos",
+        "País ID": 156,
+        "Ciudad ID": 13730
+    },
+    {
+        "Código IATA": "BBA",
+        "Nombre": "Aeródromo Balmaceda",
+        "Ciudad": "Balmaceda",
+        "País": "Chile",
+        "País ID": 45,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "BCN",
+        "Nombre": "Aeropuerto de Barcelona-El Prat",
+        "Ciudad": "Barcelona",
+        "País": "España",
+        "País ID": 215,
+        "Ciudad ID": 14417
+    },
+    {
+        "Código IATA": "BHI",
+        "Nombre": "Aeropuerto Comandante Espora",
+        "Ciudad": "Bahía Blanca",
+        "País": "Argentina",
+        "País ID": 11,
+        "Ciudad ID": 32856
+    },
+    {
+        "Código IATA": "BIN",
+        "Nombre": "Aeropuerto de Bamiyán",
+        "Ciudad": "Bamiyán",
+        "País": "Afganistán",
+        "País ID": 1,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "BIO",
+        "Nombre": "Aeropuerto de Bilbao",
+        "Ciudad": "Bilbao",
+        "País": "España",
+        "País ID": 215,
+        "Ciudad ID": 14419
+    },
+    {
+        "Código IATA": "BJZ",
+        "Nombre": "Aeropuerto de Badajoz",
+        "Ciudad": "Badajoz, Cáceres y Alto Alentejo",
+        "País": "España",
+        "País ID": 215,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "BOD",
+        "Nombre": "Aeropuerto de Burdeos-Mérignac",
+        "Ciudad": "Burdeos",
+        "País": "Francia",
+        "País ID": 78,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "BOG",
+        "Nombre": "Aeropuerto Internacional El Dorado",
+        "Ciudad": "Bogotá",
+        "País": "Colombia",
+        "País ID": 49,
+        "Ciudad ID": 37020
+    },
+    {
+        "Código IATA": "BPM",
+        "Nombre": "Base Aérea de Bagram",
+        "Ciudad": "Bagram",
+        "País": "Afganistán",
+        "País ID": 1,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "BRC",
+        "Nombre": "Aeropuerto Internacional Teniente Luis Candelaria",
+        "Ciudad": "San Carlos de Bariloche",
+        "País": "Argentina",
+        "País ID": 11,
+        "Ciudad ID": 32890
+    },
+    {
+        "Código IATA": "BSL[nota 1]​",
+        "Nombre": "Aeropuerto de Basilea-Mulhouse-Friburgo",
+        "Ciudad": "Basilea, Mulhouse, Friburgo",
+        "País": "Francia",
+        "País ID": 78,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "BST",
+        "Nombre": "Aeropuerto de Bost",
+        "Ciudad": "Lashkar Gah",
+        "País": "Afganistán",
+        "País ID": 1,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "BUD",
+        "Nombre": "Aeropuerto de Budapest-Ferenc Liszt",
+        "Ciudad": "Budapest",
+        "País": "Hungría",
+        "País ID": 102,
+        "Ciudad ID": 23105
+    },
+    {
+        "Código IATA": "BYJ",
+        "Nombre": "Base Aérea de Beja",
+        "Ciudad": "Beja",
+        "País": "Portugal",
+        "País ID": 180,
+        "Ciudad ID": 14204
+    },
+    {
+        "Código IATA": "COR",
+        "Nombre": "Aeropuerto Internacional Ing. Ambrosio Taravella",
+        "Ciudad": "Córdoba",
+        "País": "Argentina",
+        "País ID": 11,
+        "Ciudad ID": 32844
+    },
+    {
+        "Código IATA": "CDT",
+        "Nombre": "Aeropuerto de Castellon",
+        "Ciudad": "Castellon",
+        "País": "España",
+        "País ID": 215,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "CCC",
+        "Nombre": "Aeropuerto Internacional de Jardines del Rey",
+        "Ciudad": "Cayo Coco",
+        "País": "Cuba",
+        "País ID": 55,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "CCP",
+        "Nombre": "Aeropuerto Carriel Sur",
+        "Ciudad": "Concepción",
+        "País": "Chile",
+        "País ID": 45,
+        "Ciudad ID": 36860
+    },
+    {
+        "Código IATA": "CCS",
+        "Nombre": "Aeropuerto Internacional de Maiquetía Simón Bolívar",
+        "Ciudad": "Caracas",
+        "País": "Venezuela",
+        "País ID": 247,
+        "Ciudad ID": 37819
+    },
+    {
+        "Código IATA": "CDG",
+        "Nombre": "Aeropuerto de París-Charles de Gaulle",
+        "Ciudad": "París",
+        "País": "Francia",
+        "País ID": 78,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "CGN",
+        "Nombre": "Aeropuerto Internacional de Colonia/Bonn Konrad Adenauer",
+        "Ciudad": "Colonia, Bonn",
+        "País": "Alemania",
+        "País ID": 85,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "CLO",
+        "Nombre": "Aeropuerto Internacional Bonilla Aragón",
+        "Ciudad": "Cali",
+        "País": "Colombia",
+        "País ID": 49,
+        "Ciudad ID": 37023
+    },
+    {
+        "Código IATA": "CLX",
+        "Nombre": "Aeropuerto Clorinda",
+        "Ciudad": "Clorinda",
+        "País": "Argentina",
+        "País ID": 11,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "CMN",
+        "Nombre": "Aeropuerto Internacional Mohammed V",
+        "Ciudad": "Casablanca",
+        "País": "Marruecos",
+        "País ID": 150,
+        "Ciudad ID": 1094
+    },
+    {
+        "Código IATA": "CNQ",
+        "Nombre": "Aeropuerto Internacional Doctor Fernando Piragine Niveyro",
+        "Ciudad": "Ciudad de Corrientes",
+        "País": "Argentina",
+        "País ID": 11,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "COC",
+        "Nombre": "Aeropuerto Comodoro Pierrestegui",
+        "Ciudad": "Concordia",
+        "País": "Argentina",
+        "País ID": 11,
+        "Ciudad ID": 32879
+    },
+    {
+        "Código IATA": "CQM",
+        "Nombre": "Aeropuerto de Ciudad Real",
+        "Ciudad": "La Mancha",
+        "País": "España",
+        "País ID": 215,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "CTC",
+        "Nombre": "Aeropuerto Coronel Felipe Varela",
+        "Ciudad": "San Fernando del Valle de Catamarca",
+        "País": "Argentina",
+        "País ID": 11,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "CUE",
+        "Nombre": "Aeropuerto Internacional Mariscal Lamar",
+        "Ciudad": "Cuenca",
+        "País": "Ecuador",
+        "País ID": 65,
+        "Ciudad ID": 37503
+    },
+    {
+        "Código IATA": "CUU",
+        "Nombre": "Aeropuerto Internacional General Roberto Fierro Villalobos",
+        "Ciudad": "Chihuahua",
+        "País": "México",
+        "País ID": 143,
+        "Ciudad ID": 10321
+    },
+    {
+        "Código IATA": "CVU",
+        "Nombre": "Aeropuerto de Corvo",
+        "Ciudad": "Isla de Corvo",
+        "País": "Portugal",
+        "País ID": 180,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "CWB",
+        "Nombre": "Aeropuerto Internacional Afonso Pena",
+        "Ciudad": "Curitiba",
+        "País": "Brasil",
+        "País ID": 32,
+        "Ciudad ID": 33251
+    },
+    {
+        "Código IATA": "DAY",
+        "Nombre": "Aeropuerto Internacional James M. Cox-Dayton",
+        "Ciudad": "Dayton",
+        "País": "Estados Unidos",
+        "País ID": 242,
+        "Ciudad ID": 27576
+    },
+    {
+        "Código IATA": "DJE",
+        "Nombre": "Aeropuerto Internacional de Yerba-Zarzis",
+        "Ciudad": "Yerba (Túnez)",
+        "País": "Túnez",
+        "País ID": 233,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "DME",
+        "Nombre": "Aeropuerto Internacional de Moscú-Domodédovo",
+        "Ciudad": "Moscú",
+        "País": "Rusia",
+        "País ID": 184,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "DOH",
+        "Nombre": "Aeropuerto Internacional Hamad",
+        "Ciudad": "Doha",
+        "País": "Catar",
+        "País ID": 182,
+        "Ciudad ID": 9130
+    },
+    {
+        "Código IATA": "DXB",
+        "Nombre": "Aeropuerto Internacional de Dubái",
+        "Ciudad": "Dubái",
+        "País": "Emiratos Árabes Unidos",
+        "País ID": 240,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "EAP",
+        "Nombre": "Aeropuerto de Basilea-Mulhouse-Friburgo",
+        "Ciudad": "Basilea, Mulhouse, Friburgo",
+        "País": "Francia",
+        "País ID": 78,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "EAS",
+        "Nombre": "Aeropuerto de San Sebastián",
+        "Ciudad": "Donostia-San Sebastián",
+        "País": "España",
+        "País ID": 215,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "EDI",
+        "Nombre": "Aeropuerto de Edimburgo",
+        "Ciudad": "Edimburgo",
+        "País": "inglaterra",
+        "País ID": 66,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "EGE",
+        "Nombre": "Aeropuerto Regional del Condado de Eagle",
+        "Ciudad": "Eagle-Vail",
+        "País": "Estados Unidos",
+        "País ID": 242,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "EIN",
+        "Nombre": "Aeropuerto de Eindhoven",
+        "Ciudad": "Eindhoven",
+        "País": "Países Bajos",
+        "País ID": 156,
+        "Ciudad ID": 13624
+    },
+    {
+        "Código IATA": "EPA",
+        "Nombre": "Aeropuerto El Palomar",
+        "Ciudad": "Área metropolitana de Buenos Aires",
+        "País": "Argentina",
+        "País ID": 11,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "ESR",
+        "Nombre": "Aeródromo Ricardo García Posada",
+        "Ciudad": "El Salvador (Chile)",
+        "País": "Chile",
+        "País ID": 45,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "EZE",
+        "Nombre": "Aeropuerto Internacional Ministro Pistarini",
+        "Ciudad": "Ezeiza",
+        "País": "Argentina",
+        "País ID": 11,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "ENO",
+        "Nombre": "Aeropuerto Teniente Amín Ayub González",
+        "Ciudad": "Encarnacion (Paraguay)",
+        "País": "Paraguay",
+        "País ID": 175,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "EOH",
+        "Nombre": "Aeropuerto Enrique Olaya Herrera",
+        "Ciudad": "Medellín, Colombia",
+        "País": "Colombia",
+        "País ID": 49,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "FAO",
+        "Nombre": "Aeropuerto de Faro",
+        "Ciudad": "Faro",
+        "País": "Portugal",
+        "País ID": 180,
+        "Ciudad ID": 14155
+    },
+    {
+        "Código IATA": "FBD",
+        "Nombre": "Aeropuerto de Fayzabad",
+        "Ciudad": "Fayzabad",
+        "País": "Afganistán",
+        "País ID": 1,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "FCO",
+        "Nombre": "Aeropuerto de Roma-Fiumicino",
+        "Ciudad": "Roma",
+        "País": "Italia",
+        "País ID": 111,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "FDO",
+        "Nombre": "Aeropuerto Internacional de San Fernando",
+        "Ciudad": "San Fernando",
+        "País": "Argentina",
+        "País ID": 11,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "FLR",
+        "Nombre": "Aeropuerto de Florencia",
+        "Ciudad": "Florencia",
+        "País": "Italia",
+        "País ID": 111,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "FLW",
+        "Nombre": "Aeropuerto de Flores",
+        "Ciudad": "Isla de Flores",
+        "País": "Portugal",
+        "País ID": 180,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "FMA",
+        "Nombre": "Aeropuerto Internacional de Formosa",
+        "Ciudad": "Ciudad de Formosa",
+        "País": "Argentina",
+        "País ID": 11,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "FNC",
+        "Nombre": "Aeropuerto Internacional Cristiano Ronaldo",
+        "Ciudad": "Funchal",
+        "País": "Portugal",
+        "País ID": 180,
+        "Ciudad ID": 14137
+    },
+    {
+        "Código IATA": "FRA",
+        "Nombre": "Aeropuerto de Fráncfort del Meno",
+        "Ciudad": "Fráncfort del Meno",
+        "País": "Alemania",
+        "País ID": 85,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "FRS",
+        "Nombre": "Aeropuerto Internacional Mundo Maya",
+        "Ciudad": "Santa Elena de la Cruz",
+        "País": "Guatemala",
+        "País ID": 93,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "FOR",
+        "Nombre": "Aeropuerto Internacional Pinto Martins",
+        "Ciudad": "Fortaleza",
+        "País": "Brasil",
+        "País ID": 32,
+        "Ciudad ID": 33250
+    },
+    {
+        "Código IATA": "FTE",
+        "Nombre": "Aeropuerto Internacional Comandante Armando Tola",
+        "Ciudad": "El Calafate",
+        "País": "Argentina",
+        "País ID": 11,
+        "Ciudad ID": 33021
+    },
+    {
+        "Código IATA": "FUN",
+        "Nombre": "Aeropuerto Internacional de Funafuti",
+        "Ciudad": "Funafuti",
+        "País": "Tuvalu",
+        "País ID": 236,
+        "Ciudad ID": 32835
+    },
+    {
+        "Código IATA": "GDL",
+        "Nombre": "Aeropuerto Internacional de Guadalajara",
+        "Ciudad": "Guadalajara, Jalisco",
+        "País": "México",
+        "País ID": 143,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "GHU",
+        "Nombre": "Aeropuerto de Gualeguaychú",
+        "Ciudad": "Gualeguaychú",
+        "País": "Argentina",
+        "País ID": 11,
+        "Ciudad ID": 32895
+    },
+    {
+        "Código IATA": "GIB",
+        "Nombre": "Aeropuerto de Gibraltar",
+        "Ciudad": "Gibraltar",
+        "País": "inglaterra",
+        "País ID": 66,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "GPO",
+        "Nombre": "Aeropuerto de General Pico",
+        "Ciudad": "General Pico",
+        "País": "Argentina",
+        "País ID": 11,
+        "Ciudad ID": 32946
+    },
+    {
+        "Código IATA": "GRU",
+        "Nombre": "Aeropuerto Internacional de São Paulo-Guarulhos",
+        "Ciudad": "São Paulo",
+        "País": "Brasil",
+        "País ID": 32,
+        "Ciudad ID": 33245
+    },
+    {
+        "Código IATA": "GRW",
+        "Nombre": "Aeropuerto de Graciosa",
+        "Ciudad": "Isla Graciosa",
+        "País": "Portugal",
+        "País ID": 180,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "GRX",
+        "Nombre": "Aeropuerto de Granada",
+        "Ciudad": "Granada",
+        "País": "España",
+        "País ID": 215,
+        "Ciudad ID": 14429
+    },
+    {
+        "Código IATA": "GUA",
+        "Nombre": "Aeropuerto Internacional La Aurora",
+        "Ciudad": "Ciudad de Guatemala",
+        "País": "Guatemala",
+        "País ID": 93,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "GYE",
+        "Nombre": "Aeropuerto Internacional Jose Joaquin de Olmedo",
+        "Ciudad": "Guayaquil",
+        "País": "Ecuador",
+        "País ID": 65,
+        "Ciudad ID": 37501
+    },
+    {
+        "Código IATA": "HAJ",
+        "Nombre": "Aeropuerto de Hannover",
+        "Ciudad": "Hannover",
+        "País": "Alemania",
+        "País ID": 85,
+        "Ciudad ID": 17527
+    },
+    {
+        "Código IATA": "HAM",
+        "Nombre": "Aeropuerto de Hamburgo",
+        "Ciudad": "Hamburgo",
+        "País": "Alemania",
+        "País ID": 85,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "HAV",
+        "Nombre": "Aeropuerto Internacional José Martí",
+        "Ciudad": "La Habana",
+        "País": "Cuba",
+        "País ID": 55,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "HBX",
+        "Nombre": "Aeropuerto de Hubli",
+        "Ciudad": "Hubballi, Dharwad",
+        "País": "India",
+        "País ID": 104,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "HEA",
+        "Nombre": "Aeropuerto de Herat",
+        "Ciudad": "Herat",
+        "País": "Afganistán",
+        "País ID": 1,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "HEL",
+        "Nombre": "Aeropuerto de Helsinki-Vantaa",
+        "Ciudad": "Helsinki",
+        "País": "Finlandia",
+        "País ID": 77,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "HGL",
+        "Nombre": "Aeropuerto de Heligoland",
+        "Ciudad": "Heligoland",
+        "País": "Alemania",
+        "País ID": 85,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "HHN",
+        "Nombre": "Aeropuerto de Fráncfort-Hahn",
+        "Ciudad": "Fráncfort[nota 2]​",
+        "País": "Alemania",
+        "País ID": 85,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "HIR",
+        "Nombre": "Aeropuerto Internacional de Honiara",
+        "Ciudad": "Honiara",
+        "País": "Islas Salomón",
+        "País ID": 209,
+        "Ciudad ID": 32824
+    },
+    {
+        "Código IATA": "HKG",
+        "Nombre": "Aeropuerto Internacional de Hong Kong",
+        "Ciudad": "Hong Kong",
+        "País": "China",
+        "País ID": 46,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "HMO",
+        "Nombre": "Aeropuerto Internacional General Ignacio Pesqueira García",
+        "Ciudad": "Hermosillo",
+        "País": "México",
+        "País ID": 143,
+        "Ciudad ID": 10323
+    },
+    {
+        "Código IATA": "HND",
+        "Nombre": "Aeropuerto Internacional de Haneda",
+        "Ciudad": "Tokio",
+        "País": "Japón",
+        "País ID": 113,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "HOG",
+        "Nombre": "Aeropuerto Internacional Frank País",
+        "Ciudad": "Holguín",
+        "País": "Cuba",
+        "País ID": 55,
+        "Ciudad ID": 9776
+    },
+    {
+        "Código IATA": "HOR",
+        "Nombre": "Aeropuerto de Horta",
+        "Ciudad": "Isla de Faial",
+        "País": "Portugal",
+        "País ID": 180,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "HNL",
+        "Nombre": "Aeropuerto Internacional de Honolulu",
+        "Ciudad": "Honolulu",
+        "País": "Estados Unidos",
+        "País ID": 242,
+        "Ciudad ID": 27570
+    },
+    {
+        "Código IATA": "HOU",
+        "Nombre": "Aeropuerto William P. Hobby",
+        "Ciudad": "Houston",
+        "País": "Estados Unidos",
+        "País ID": 242,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "HUX",
+        "Nombre": "Aeropuerto Internacional Bahías de Huatulco",
+        "Ciudad": "Huatulco, Oaxaca",
+        "País": "México",
+        "País ID": 143,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "IBZ",
+        "Nombre": "Aeropuerto de Ibiza",
+        "Ciudad": "Ibiza",
+        "País": "España",
+        "País ID": 215,
+        "Ciudad ID": 14539
+    },
+    {
+        "Código IATA": "ICN",
+        "Nombre": "Aeropuerto Internacional de Incheon",
+        "Ciudad": "Incheon, Seúl",
+        "País": "Corea del Sur",
+        "País ID": 213,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "IGR",
+        "Nombre": "Aeropuerto Internacional de Puerto Iguazú",
+        "Ciudad": "Puerto Iguazú",
+        "País": "Argentina",
+        "País ID": 11,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "INV",
+        "Nombre": "Aeropuerto de Inverness",
+        "Ciudad": "Inverness",
+        "País": "inglaterra",
+        "País ID": 66,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "IPC",
+        "Nombre": "Aeropuerto Internacional Mataveri",
+        "Ciudad": "Isla de Pascua",
+        "País": "Chile",
+        "País ID": 45,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "IQQ",
+        "Nombre": "Aeropuerto Internacional Diego Aracena",
+        "Ciudad": "Iquique",
+        "País": "Chile",
+        "País ID": 45,
+        "Ciudad ID": 36865
+    },
+    {
+        "Código IATA": "IRJ",
+        "Nombre": "Aeropuerto Capitán Vicente Almandos Almonacid",
+        "Ciudad": "Ciudad de La Rioja",
+        "País": "Argentina",
+        "País ID": 11,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "IST",
+        "Nombre": "Aeropuerto Internacional Atatürk",
+        "Ciudad": "Estambul",
+        "País": "Turquía",
+        "País ID": 237,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "IVL",
+        "Nombre": "Aeropuerto de Ivalo",
+        "Ciudad": "Ivalo",
+        "País": "Finlandia",
+        "País ID": 77,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "JAA",
+        "Nombre": "Aeropuerto de Jalalabad",
+        "Ciudad": "Jalalabad",
+        "País": "Afganistán",
+        "País ID": 1,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "JER",
+        "Nombre": "Aeropuerto de Jersey",
+        "Ciudad": "Saint Helier",
+        "País": "inglaterra",
+        "País ID": 66,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "JFK",
+        "Nombre": "Aeropuerto Internacional John F. Kennedy",
+        "Ciudad": "Nueva York",
+        "País": "Estados Unidos",
+        "País ID": 242,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "JKL",
+        "Nombre": "Aeropuerto Nacional de Kálimnos",
+        "Ciudad": "Pothia (en)",
+        "País": "Grecia",
+        "País ID": 88,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "JSR",
+        "Nombre": "Aeropuerto de Jessore",
+        "Ciudad": "Jessore (en)",
+        "País": "Bangladés",
+        "País ID": 20,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "JUJ",
+        "Nombre": "Aeropuerto Internacional Gobernador Horacio Guzmán",
+        "Ciudad": "San Salvador de Jujuy",
+        "País": "Argentina",
+        "País ID": 11,
+        "Ciudad ID": 32855
+    },
+    {
+        "Código IATA": "KBL",
+        "Nombre": "Aeropuerto Internacional de Kabul",
+        "Ciudad": "Kabul",
+        "País": "Afganistán",
+        "País ID": 1,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "KDH",
+        "Nombre": "Aeropuerto Internacional de Kandahar",
+        "Ciudad": "Kandahar",
+        "País": "Afganistán",
+        "País ID": 1,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "KEF",
+        "Nombre": "Aeropuerto Internacional de Keflavík",
+        "Ciudad": "Reikiavik",
+        "País": "Islandia",
+        "País ID": 103,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "KGD",
+        "Nombre": "Aeropuerto de Kaliningrado-Jrabrovo",
+        "Ciudad": "Kaliningrado",
+        "País": "Rusia",
+        "País ID": 184,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "LAD",
+        "Nombre": "Aeropuerto Internacional Quatro de Fevereiro",
+        "Ciudad": "Luanda",
+        "País": "Angola",
+        "País ID": 7,
+        "Ciudad ID": 157
+    },
+    {
+        "Código IATA": "LAS",
+        "Nombre": "Aeropuerto Internacional Harry Reid",
+        "Ciudad": "Las Vegas",
+        "País": "Estados Unidos",
+        "País ID": 242,
+        "Ciudad ID": 27538
+    },
+    {
+        "Código IATA": "LAX",
+        "Nombre": "Aeropuerto Internacional de Los Ángeles",
+        "Ciudad": "Los Ángeles",
+        "País": "Estados Unidos",
+        "País ID": 242,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "LCE",
+        "Nombre": "Aeropuerto Internacional Golosón",
+        "Ciudad": "La Ceiba",
+        "País": "Honduras",
+        "País ID": 100,
+        "Ciudad ID": 10254
+    },
+    {
+        "Código IATA": "LEI",
+        "Nombre": "Aeropuerto de Almería",
+        "Ciudad": "Almería",
+        "País": "España",
+        "País ID": 215,
+        "Ciudad ID": 14438
+    },
+    {
+        "Código IATA": "LEU",
+        "Nombre": "Aeropuerto de Andorra-La Seu",
+        "Ciudad": "Seo de Urgel, Andorra la Vieja[nota 4]​",
+        "País": "España",
+        "País ID": 215,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "LGG",
+        "Nombre": "Aeropuerto de Lieja",
+        "Ciudad": "Lieja",
+        "País": "Bélgica",
+        "País ID": 23,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "LGS",
+        "Nombre": "Aeropuerto Internacional Comodoro Ricardo Salomón",
+        "Ciudad": "Malargüe",
+        "País": "Argentina",
+        "País ID": 11,
+        "Ciudad ID": 33077
+    },
+    {
+        "Código IATA": "LGW",
+        "Nombre": "Aeropuerto de Gatwick",
+        "Ciudad": "Londres",
+        "País": "inglaterra",
+        "País ID": 66,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "LHR",
+        "Nombre": "Aeropuerto de Heathrow",
+        "Ciudad": "Londres",
+        "País": "inglaterra",
+        "País ID": 66,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "LIM",
+        "Nombre": "Aeropuerto Internacional Jorge Chávez",
+        "Ciudad": "Callao,Lima",
+        "País": "Perú",
+        "País ID": 176,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "LIR",
+        "Nombre": "Aeropuerto de Guanacaste",
+        "Ciudad": "Guanacaste",
+        "País": "Costa Rica",
+        "País ID": 53,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "LIS",
+        "Nombre": "Aeropuerto de Portela",
+        "Ciudad": "Lisboa",
+        "País": "Portugal",
+        "País ID": 180,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "LTN",
+        "Nombre": "Aeropuerto de Londres-Luton",
+        "Ciudad": "Londres",
+        "País": "inglaterra",
+        "País ID": 66,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "LUQ",
+        "Nombre": "Aeropuerto Brigadier Mayor César Raúl Ojeda",
+        "Ciudad": "Ciudad de San Luis",
+        "País": "Argentina",
+        "País ID": 11,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "MAD",
+        "Nombre": "Aeropuerto Adolfo Suárez Madrid-Barajas",
+        "Ciudad": "Madrid",
+        "País": "España",
+        "País ID": 215,
+        "Ciudad ID": 14461
+    },
+    {
+        "Código IATA": "MCS",
+        "Nombre": "Aeropuerto de Monte Caseros",
+        "Ciudad": "Monte Caseros",
+        "País": "Argentina",
+        "País ID": 11,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "MDE",
+        "Nombre": "Aeropuerto Internacional José María Cordova",
+        "Ciudad": "Rionegro, Medellín",
+        "País": "Colombia",
+        "País ID": 49,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "MDQ",
+        "Nombre": "Aeropuerto Internacional Astor Piazzolla",
+        "Ciudad": "Mar del Plata",
+        "País": "Argentina",
+        "País ID": 11,
+        "Ciudad ID": 32848
+    },
+    {
+        "Código IATA": "MVD",
+        "Nombre": "Aeropuerto Internacional de Carrasco",
+        "Ciudad": "Montevideo",
+        "País": "Uruguay",
+        "País ID": 243,
+        "Ciudad ID": 37762
+    },
+    {
+        "Código IATA": "MDZ",
+        "Nombre": "Aeropuerto Internacional Gobernador Francisco Gabrielli",
+        "Ciudad": "Ciudad de Mendoza",
+        "País": "Argentina",
+        "País ID": 11,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "MEC",
+        "Nombre": "Aeropuerto de Manta",
+        "Ciudad": "Manta",
+        "País": "Ecuador",
+        "País ID": 65,
+        "Ciudad ID": 37507
+    },
+    {
+        "Código IATA": "MGA",
+        "Nombre": "Aeropuerto Internacional Augusto C. Sandino",
+        "Ciudad": "Managua",
+        "País": "Nicaragua",
+        "País ID": 159,
+        "Ciudad ID": 11290
+    },
+    {
+        "Código IATA": "MTY",
+        "Nombre": "Aeropuerto Internacional Mariano Escobedo",
+        "Ciudad": "Monterrey",
+        "País": "México",
+        "País ID": 143,
+        "Ciudad ID": 10312
+    },
+    {
+        "Código IATA": "MEX",
+        "Nombre": "Aeropuerto Internacional Benito Juárez",
+        "Ciudad": "Ciudad de México",
+        "País": "México",
+        "País ID": 143,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "MDX",
+        "Nombre": "Aeropuerto del Iberá",
+        "Ciudad": "Mercedes",
+        "País": "Argentina",
+        "País ID": 11,
+        "Ciudad ID": 32951
+    },
+    {
+        "Código IATA": "MFM",
+        "Nombre": "Aeropuerto Internacional de Macao",
+        "Ciudad": "Ciudad de Macao",
+        "País": "China",
+        "País ID": 46,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "MIA",
+        "Nombre": "Aeropuerto Internacional de Miami",
+        "Ciudad": "Miami",
+        "País": "Estados Unidos",
+        "País ID": 242,
+        "Ciudad ID": 27524
+    },
+    {
+        "Código IATA": "MKC",
+        "Nombre": "Aeropuerto Urbano Charles B. Wheeler",
+        "Ciudad": "Kansas City",
+        "País": "Estados Unidos",
+        "País ID": 242,
+        "Ciudad ID": 27547
+    },
+    {
+        "Código IATA": "MLH[nota 1]​",
+        "Nombre": "Aeropuerto de Basilea-Mulhouse-Friburgo",
+        "Ciudad": "Basilea, Mulhouse, Friburgo",
+        "País": "Francia",
+        "País ID": 78,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "MLN",
+        "Nombre": "Aeropuerto de Melilla",
+        "Ciudad": "Melilla",
+        "País": "España",
+        "País ID": 215,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "MPN",
+        "Nombre": "Base Aérea de Monte Agradable",
+        "Ciudad": "Isla Soledad",
+        "País": "inglaterra",
+        "País ID": 66,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "MUC",
+        "Nombre": "Aeropuerto Internacional de Múnich-Franz Josef Strauss",
+        "Ciudad": "Munich",
+        "País": "Alemania",
+        "País ID": 85,
+        "Ciudad ID": 17518
+    },
+    {
+        "Código IATA": "MXP",
+        "Nombre": "Aeropuerto de Milán-Malpensa",
+        "Ciudad": "Milán",
+        "País": "Italia",
+        "País ID": 111,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "MZR",
+        "Nombre": "Aeropuerto de Mazar-e Sarif",
+        "Ciudad": "Mazar-e Sarif",
+        "País": "Afganistán",
+        "País ID": 1,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "MCO",
+        "Nombre": "Orlando International Airport",
+        "Ciudad": "Orlando",
+        "País": "Estados Unidos",
+        "País ID": 242,
+        "Ciudad ID": 27542
+    },
+    {
+        "Código IATA": "NAP",
+        "Nombre": "Aeropuerto de Nápoles-Capodichino",
+        "Ciudad": "Nápoles",
+        "País": "Italia",
+        "País ID": 111,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "NIC",
+        "Nombre": "Aeropuerto de Nicosia",
+        "Ciudad": "Nicosia",
+        "País": "Chipre",
+        "País ID": 57,
+        "Ciudad ID": 8354
+    },
+    {
+        "Código IATA": "NLU",
+        "Nombre": "Aeropuerto Internacional Felipe Ángeles",
+        "Ciudad": "Ciudad de México",
+        "País": "México",
+        "País ID": 143,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "NLK",
+        "Nombre": "Aeropuerto de la Isla Norfolk (en)",
+        "Ciudad": "Kingston",
+        "País": "Australia",
+        "País ID": 15,
+        "Ciudad ID": 32440
+    },
+    {
+        "Código IATA": "NRT",
+        "Nombre": "Aeropuerto Internacional de Narita Jasiko",
+        "Ciudad": "Área del Gran Tokio",
+        "País": "Japón",
+        "País ID": 113,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "OPO",
+        "Nombre": "Aeropuerto de Francisco Sá Carneiro",
+        "Ciudad": "Oporto",
+        "País": "Portugal",
+        "País ID": 180,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "ORA",
+        "Nombre": "Aero Club Orán",
+        "Ciudad": "San Ramón de la Nueva Orán",
+        "País": "Argentina",
+        "País ID": 11,
+        "Ciudad ID": 32927
+    },
+    {
+        "Código IATA": "ORD",
+        "Nombre": "Aeropuerto Internacional O'Hare",
+        "Ciudad": "Chicago",
+        "País": "Estados Unidos",
+        "País ID": 242,
+        "Ciudad ID": 27523
+    },
+    {
+        "Código IATA": "ORK",
+        "Nombre": "Aeropuerto de Cork",
+        "Ciudad": "Cork",
+        "País": "Irlanda",
+        "País ID": 108,
+        "Ciudad ID": 13542
+    },
+    {
+        "Código IATA": "ORY",
+        "Nombre": "Aeropuerto de París-Orly",
+        "Ciudad": "París",
+        "País": "Francia",
+        "País ID": 78,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "OYA",
+        "Nombre": "Aeropuerto Dr. Diego Nicolás Díaz Colodrero",
+        "Ciudad": "Goya",
+        "País": "Argentina",
+        "País ID": 11,
+        "Ciudad ID": 32929
+    },
+    {
+        "Código IATA": "PBR",
+        "Nombre": "Aeropuerto Internacional La Tierra de Dios",
+        "Ciudad": "Puerto Barrios",
+        "País": "Guatemala",
+        "País ID": 93,
+        "Ciudad ID": 10061
+    },
+    {
+        "Código IATA": "PDP",
+        "Nombre": "Aeropuerto Internacional de Punta del Este",
+        "Ciudad": "Maldonado y Punta del Este",
+        "País": "Uruguay",
+        "País ID": 243,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "PDL",
+        "Nombre": "Aeropuerto João Paulo II",
+        "Ciudad": "Isla de São Miguel",
+        "País": "Portugal",
+        "País ID": 180,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "PHL",
+        "Nombre": "Aeropuerto Internacional de Filadelfia",
+        "Ciudad": "Filadelfia",
+        "País": "Estados Unidos",
+        "País ID": 242,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "PIX",
+        "Nombre": "Aeropuerto de Pico",
+        "Ciudad": "Isla del Pico",
+        "País": "Portugal",
+        "País ID": 180,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "PJC",
+        "Nombre": "Aeropuerto Doctor Fuster",
+        "Ciudad": "Pedro Juan Caballero (Paraguay)",
+        "País": "Paraguay",
+        "País ID": 175,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "PNA",
+        "Nombre": "Aeropuerto de Pamplona",
+        "Ciudad": "Noáin",
+        "País": "España",
+        "País ID": 215,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "PRA",
+        "Nombre": "Aeropuerto General Justo José de Urquiza",
+        "Ciudad": "Paraná",
+        "País": "Argentina",
+        "País ID": 11,
+        "Ciudad ID": 32860
+    },
+    {
+        "Código IATA": "PRQ",
+        "Nombre": "Aeropuerto de Presidencia Roque Sáenz Peña",
+        "Ciudad": "Presidencia Roque Sáenz Peña",
+        "País": "Argentina",
+        "País ID": 11,
+        "Ciudad ID": 32916
+    },
+    {
+        "Código IATA": "PSY",
+        "Nombre": "Aeropuerto de Puerto Argentino/Stanley",
+        "Ciudad": "Puerto Argentino/Stanley",
+        "País": "inglaterra",
+        "País ID": 66,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "PTY",
+        "Nombre": "Aeropuerto Internacional de Tocumen",
+        "Ciudad": "Ciudad de Panamá",
+        "País": "Panamá",
+        "País ID": 173,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "PUJ",
+        "Nombre": "Aeropuerto Internacional de Punta Cana",
+        "Ciudad": "Punta Cana",
+        "País": "República Dominicana",
+        "País ID": 64,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "PUQ",
+        "Nombre": "Aeropuerto Internacional Presidente Carlos Ibáñez del Campo",
+        "Ciudad": "Punta Arenas",
+        "País": "Chile",
+        "País ID": 45,
+        "Ciudad ID": 36879
+    },
+    {
+        "Código IATA": "PXO",
+        "Nombre": "Aeropuerto de Porto Santo",
+        "Ciudad": "Isla de Porto Santo",
+        "País": "Portugal",
+        "País ID": 180,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "QGY",
+        "Nombre": "Aeropuerto Internacional de Györ-Pér",
+        "Ciudad": "Györ",
+        "País": "Hungría",
+        "País ID": 102,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "QRC",
+        "Nombre": "Aeródromo de la Independencia",
+        "Ciudad": "Rancagua",
+        "País": "Chile",
+        "País ID": 45,
+        "Ciudad ID": 36859
+    },
+    {
+        "Código IATA": "QSA",
+        "Nombre": "Aeropuerto de Sabadell",
+        "Ciudad": "Sabadell",
+        "País": "España",
+        "País ID": 215,
+        "Ciudad ID": 14433
+    },
+    {
+        "Código IATA": "RAK",
+        "Nombre": "Aeropuerto de Marrakech-Menara",
+        "Ciudad": "Marrakech",
+        "País": "Marruecos",
+        "País ID": 150,
+        "Ciudad ID": 1098
+    },
+    {
+        "Código IATA": "RBA",
+        "Nombre": "Aeropuerto de Rabat-Salé",
+        "Ciudad": "Rabat",
+        "País": "Marruecos",
+        "País ID": 150,
+        "Ciudad ID": 1100
+    },
+    {
+        "Código IATA": "RES",
+        "Nombre": "Aeropuerto Internacional de Resistencia",
+        "Ciudad": "Ciudad de Resistencia",
+        "País": "Argentina",
+        "País ID": 11,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "REU",
+        "Nombre": "Aeropuerto de Reus",
+        "Ciudad": "Reus, Tarragona",
+        "País": "España",
+        "País ID": 215,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "REX",
+        "Nombre": "Aeropuerto Internacional de Reynosa",
+        "Ciudad": "Reynosa",
+        "País": "Mexico",
+        "País ID": 143,
+        "Ciudad ID": 10336
+    },
+    {
+        "Código IATA": "RGA",
+        "Nombre": "Aeropuerto Internacional Gob. Ramón Trejo Noel",
+        "Ciudad": "Río Grande",
+        "País": "Argentina",
+        "País ID": 11,
+        "Ciudad ID": 32992
+    },
+    {
+        "Código IATA": "RHD",
+        "Nombre": "Aeropuerto Internacional Termas de Río Hondo",
+        "Ciudad": "Termas de Río Hondo",
+        "País": "Argentina",
+        "País ID": 11,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "RLO",
+        "Nombre": "Aeropuerto Internacional Valle del Conlara",
+        "Ciudad": "Merlo",
+        "País": "Argentina",
+        "País ID": 11,
+        "Ciudad ID": 32861
+    },
+    {
+        "Código IATA": "RMU",
+        "Nombre": "Aeropuerto Internacional de la Región de Murcia",
+        "Ciudad": "Región de Murcia",
+        "País": "España",
+        "País ID": 215,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "ROS",
+        "Nombre": "Aeropuerto Internacional Rosario Islas Malvinas",
+        "Ciudad": "Rosario",
+        "País": "Argentina",
+        "País ID": 11,
+        "Ciudad ID": 32845
+    },
+    {
+        "Código IATA": "RRG",
+        "Nombre": "Aeropuerto Sir Gaëtan Duval",
+        "Ciudad": "Rodrigues",
+        "País": "Mauricio",
+        "País ID": 141,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "RSA",
+        "Nombre": "Aeropuerto de Santa Rosa",
+        "Ciudad": "Ciudad de Santa Rosa",
+        "País": "Argentina",
+        "País ID": 11,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "RTB",
+        "Nombre": "Aeropuerto Internacional Juan Manuel Gálvez",
+        "Ciudad": "Roatán, Islas de la Bahía",
+        "País": "Honduras",
+        "País ID": 100,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "RUH",
+        "Nombre": "Aeropuerto Internacional Rey Khalid",
+        "Ciudad": "Riad",
+        "País": "Arabia Saudita",
+        "País ID": 199,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "SAL",
+        "Nombre": "Aeropuerto Internacional de El Salvador San Óscar Arnulfo Romero y Galdámez",
+        "Ciudad": "San Salvador",
+        "País": "El Salvador",
+        "País ID": 68,
+        "Ciudad ID": 9989
+    },
+    {
+        "Código IATA": "SAP",
+        "Nombre": "Aeropuerto Internacional Ramon Villeda Morales",
+        "Ciudad": "San Pedro Sula",
+        "País": "Honduras",
+        "País ID": 100,
+        "Ciudad ID": 10250
+    },
+    {
+        "Código IATA": "SBZ",
+        "Nombre": "Aeropuerto Internacional de Sibiu",
+        "Ciudad": "Sibiu",
+        "País": "Rumania",
+        "País ID": 183,
+        "Ciudad ID": 24003
+    },
+    {
+        "Código IATA": "SCU",
+        "Nombre": "Aeropuerto Internacional Antonio Maceo y Grajales",
+        "Ciudad": "Santiago de Cuba",
+        "País": "Cuba",
+        "País ID": 55,
+        "Ciudad ID": 9775
+    },
+    {
+        "Código IATA": "SCL",
+        "Nombre": "Aeropuerto Internacional Arturo Merino Benítez",
+        "Ciudad": "Santiago de Chile",
+        "País": "Chile",
+        "País ID": 45,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "SDE",
+        "Nombre": "Aeropuerto Vicecomodoro Ángel de la Paz Aragonés",
+        "Ciudad": "Ciudad de Santiago del Estero",
+        "País": "Argentina",
+        "País ID": 11,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "SDQ",
+        "Nombre": "Aeropuerto Internacional José Francisco Peña Gómez",
+        "Ciudad": "Santo Domingo",
+        "País": "República Dominicana",
+        "País ID": 64,
+        "Ciudad ID": 9915
+    },
+    {
+        "Código IATA": "SFM",
+        "Nombre": "Aeropuerto Internacional de Sacramento",
+        "Ciudad": "Sacramento",
+        "País": "Estados Unidos",
+        "País ID": 242,
+        "Ciudad ID": 27541
+    },
+    {
+        "Código IATA": "SFN",
+        "Nombre": "Aeropuerto de Sauce Viejo",
+        "Ciudad": "Sauce Viejo",
+        "País": "Argentina",
+        "País ID": 11,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "SFO",
+        "Nombre": "Aeropuerto Interenacional de San Francisco",
+        "Ciudad": "San Francisco",
+        "País": "Estados Unidos",
+        "País ID": 242,
+        "Ciudad ID": 31931
+    },
+    {
+        "Código IATA": "SIN",
+        "Nombre": "Aeropuerto Internacional de Singapur-Changi",
+        "Ciudad": "Singapur",
+        "País": "Singapur",
+        "País ID": 205,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "SJO",
+        "Nombre": "Aeropuerto Internacional Juan Santamaría",
+        "Ciudad": "San José",
+        "País": "Costa Rica",
+        "País ID": 53,
+        "Ciudad ID": 9756
+    },
+    {
+        "Código IATA": "SJZ",
+        "Nombre": "Aeropuerto de São Jorge",
+        "Ciudad": "Isla de São Jorge",
+        "País": "Portugal",
+        "País ID": 180,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "SKG",
+        "Nombre": "Aeropuerto Internacional Macedonia",
+        "Ciudad": "Tesalónica",
+        "País": "Grecia",
+        "País ID": 88,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "SLA",
+        "Nombre": "Aeropuerto Internacional de Salta Martín Miguel de Güemes",
+        "Ciudad": "Ciudad de Salta",
+        "País": "Argentina",
+        "País ID": 11,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "SLM",
+        "Nombre": "Aeropuerto de Salamanca",
+        "Ciudad": "Salamanca",
+        "País": "España",
+        "País ID": 215,
+        "Ciudad ID": 14421
+    },
+    {
+        "Código IATA": "SMA",
+        "Nombre": "Aeropuerto de Santa Maria",
+        "Ciudad": "Isla de Santa Maria",
+        "País": "Portugal",
+        "País ID": 180,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "SNU",
+        "Nombre": "Aeropuerto Internacional Abel Santamaría",
+        "Ciudad": "Santa Clara",
+        "País": "Cuba",
+        "País ID": 55,
+        "Ciudad ID": 9779
+    },
+    {
+        "Código IATA": "SUF",
+        "Nombre": "Aeropuerto Internacional de Lamezia Terme",
+        "Ciudad": "Lamezia Terme",
+        "País": "Italia",
+        "País ID": 111,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "SVO",
+        "Nombre": "Aeropuerto Internacional de Moscú-Sheremétievo",
+        "Ciudad": "Moscú",
+        "País": "Rusia",
+        "País ID": 184,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "SVQ",
+        "Nombre": "Aeropuerto de Sevilla",
+        "Ciudad": "Sevilla",
+        "País": "España",
+        "País ID": 215,
+        "Ciudad ID": 15006
+    },
+    {
+        "Código IATA": "SXB",
+        "Nombre": "Aeropuerto de Estrasburgo",
+        "Ciudad": "Estrasburgo",
+        "País": "Francia",
+        "País ID": 78,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "SYD",
+        "Nombre": "Aeropuerto Internacional Kingsford Smith",
+        "Ciudad": "Sídney",
+        "País": "Australia",
+        "País ID": 15,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "TER",
+        "Nombre": "Aeropuerto de Lajes",
+        "Ciudad": "Isla Terceira",
+        "País": "Portugal",
+        "País ID": 180,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "TEV",
+        "Nombre": "Aeródromo de Teruel",
+        "Ciudad": "Teruel",
+        "País": "España",
+        "País ID": 215,
+        "Ciudad ID": 14598
+    },
+    {
+        "Código IATA": "TFN",
+        "Nombre": "Aeropuerto de Tenerife Norte",
+        "Ciudad": "Tenerife",
+        "País": "España",
+        "País ID": 215,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "TFS",
+        "Nombre": "Aeropuerto de Tenerife Sur",
+        "Ciudad": "Tenerife",
+        "País": "España",
+        "País ID": 215,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "TGD",
+        "Nombre": "Aeropuerto de Podgorica",
+        "Ciudad": "Montenegro",
+        "País": "Montenegro",
+        "País ID": 148,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "TGU",
+        "Nombre": "Aeropuerto de Toncontín",
+        "Ciudad": "Tegucigalpa",
+        "País": "Honduras",
+        "País ID": 100,
+        "Ciudad ID": 10249
+    },
+    {
+        "Código IATA": "THF",
+        "Nombre": "Aeropuerto de Berlín-Tempelhof",
+        "Ciudad": "Berlín",
+        "País": "Alemania",
+        "País ID": 85,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "TLS",
+        "Nombre": "Aeropuerto de Toulouse Blagnac",
+        "Ciudad": "Toulouse",
+        "País": "Francia",
+        "País ID": 78,
+        "Ciudad ID": 11489
+    },
+    {
+        "Código IATA": "TLV",
+        "Nombre": "Aeropuerto Internacional Ben Gurión",
+        "Ciudad": "Tel Aviv",
+        "País": "Israel",
+        "País ID": 110,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "TPE",
+        "Nombre": "Aeropuerto Internacional de Taiwán Taoyuan",
+        "Ciudad": "Taipéi",
+        "País": "Taiwán",
+        "País ID": 223,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "TRS",
+        "Nombre": "Aeropuerto de Trieste - Friuli Venezia Giulia",
+        "Ciudad": "Trieste",
+        "País": "Italia",
+        "País ID": 111,
+        "Ciudad ID": 20174
+    },
+    {
+        "Código IATA": "TSE",
+        "Nombre": "Aeropuerto Internacional de Astaná",
+        "Ciudad": "Astaná",
+        "País": "Kazajistán",
+        "País ID": 116,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "TTG",
+        "Nombre": "Aeropuerto General Enrique Mosconi/Tartagal",
+        "Ciudad": "Tartagal",
+        "País": "Argentina",
+        "País ID": 11,
+        "Ciudad ID": 32941
+    },
+    {
+        "Código IATA": "TUN",
+        "Nombre": "Aeropuerto Internacional de Túnez-Cartago",
+        "Ciudad": "Túnez",
+        "País": "Túnez",
+        "País ID": 233,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "TUR",
+        "Nombre": "Aeropuerto de Turku",
+        "Ciudad": "Turku",
+        "País": "Finlandia",
+        "País ID": 77,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "UIO",
+        "Nombre": "Aeropuerto Internacional Mariscal Sucre",
+        "Ciudad": "Tababela",
+        "País": "Ecuador",
+        "País ID": 65,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "USH",
+        "Nombre": "Aeropuerto Internacional Malvinas Argentinas",
+        "Ciudad": "Ushuaia",
+        "País": "Argentina",
+        "País ID": 11,
+        "Ciudad ID": 32947
+    },
+    {
+        "Código IATA": "UZU",
+        "Nombre": "Aeropuerto de Curuzú Cuatiá",
+        "Ciudad": "Curuzú Cuatiá",
+        "País": "Argentina",
+        "País ID": 11,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "VCP",
+        "Nombre": "Aeropuerto de Viracopos",
+        "Ciudad": "Sao Paulo",
+        "País": "Brasil",
+        "País ID": 32,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "VDC",
+        "Nombre": "Aeropuerto Vitória da Conquista Glauber Rocha",
+        "Ciudad": "Bahia",
+        "País": "Brasil",
+        "País ID": 32,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "VDM",
+        "Nombre": "Aeropuerto Gobernador Edgardo Castello",
+        "Ciudad": "Viedma",
+        "País": "Argentina",
+        "País ID": 11,
+        "Ciudad ID": 32943
+    },
+    {
+        "Código IATA": "VIE",
+        "Nombre": "Aeropuerto de Viena-Schwechat",
+        "Ciudad": "Viena",
+        "País": "Austria",
+        "País ID": 16,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "VKO",
+        "Nombre": "Aeropuerto Internacional de Moscú-Vnúkovo",
+        "Ciudad": "Moscú",
+        "País": "Rusia",
+        "País ID": 184,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "VLC",
+        "Nombre": "Aeropuerto de Valencia",
+        "Ciudad": "Manises",
+        "País": "España",
+        "País ID": 215,
+        "Ciudad ID": 14632
+    },
+    {
+        "Código IATA": "VGO",
+        "Nombre": "Aeropuerto de Vigo",
+        "Ciudad": "Vigo",
+        "País": "España",
+        "País ID": 215,
+        "Ciudad ID": 14422
+    },
+    {
+        "Código IATA": "VLL",
+        "Nombre": "Aeropuerto de Villanubla",
+        "Ciudad": "Valladolid",
+        "País": "España",
+        "País ID": 215,
+        "Ciudad ID": 14543
+    },
+    {
+        "Código IATA": "VME",
+        "Nombre": "Aeropuerto de Villa Reynolds",
+        "Ciudad": "Villa Mercedes",
+        "País": "Argentina",
+        "País ID": 11,
+        "Ciudad ID": 32892
+    },
+    {
+        "Código IATA": "VVI",
+        "Nombre": "Aeropuerto Internacional Viru Viru",
+        "Ciudad": "Santa Cruz de la Sierra",
+        "País": "Bolivia",
+        "País ID": 28,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "WLG",
+        "Nombre": "Aeropuerto Internacional de Wellington",
+        "Ciudad": "Wellington",
+        "País": "Nueva Zelanda",
+        "País ID": 158,
+        "Ciudad ID": 32709
+    },
+    {
+        "Código IATA": "XRY",
+        "Nombre": "Aeropuerto de Jerez",
+        "Ciudad": "Jerez",
+        "País": "España",
+        "País ID": 215,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "XPL",
+        "Nombre": "Aeropuerto Internacional de Comayagua",
+        "Ciudad": "Comayagua",
+        "País": "Honduras",
+        "País ID": 100,
+        "Ciudad ID": 10255
+    },
+    {
+        "Código IATA": "YFB",
+        "Nombre": "Aeropuerto de Iqaluit",
+        "Ciudad": "Iqaluit",
+        "País": "Canadá",
+        "País ID": 40,
+        "Ciudad ID": 27370
+    },
+    {
+        "Código IATA": "YHU",
+        "Nombre": "Aeropuerto de Montreal-Saint Hubert",
+        "Ciudad": "Montreal",
+        "País": "Canadá",
+        "País ID": 40,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "YHZ",
+        "Nombre": "Aeropuerto Internacional de Halifax-Stanfield",
+        "Ciudad": "Halifax",
+        "País": "Canadá",
+        "País ID": 40,
+        "Ciudad ID": 26965
+    },
+    {
+        "Código IATA": "YOW",
+        "Nombre": "Aeropuerto Internacional de Ottawa",
+        "Ciudad": "Ottawa",
+        "País": "Canadá",
+        "País ID": 40,
+        "Ciudad ID": 26901
+    },
+    {
+        "Código IATA": "YQB",
+        "Nombre": "Aeropuerto Internacional Jean-Lesage de Quebec",
+        "Ciudad": "Quebec",
+        "País": "Canadá",
+        "País ID": 40,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "YRB",
+        "Nombre": "Aeropuerto de Resolute Bay",
+        "Ciudad": "Resolute",
+        "País": "Canadá",
+        "País ID": 40,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "YUL",
+        "Nombre": "Aeropuerto Internacional Pierre Elliott Trudeau",
+        "Ciudad": "Montreal",
+        "País": "Canadá",
+        "País ID": 40,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "YVM",
+        "Nombre": "Aeropuerto de Qikiqtarjuaq",
+        "Ciudad": "Qikiqtarjuaq (en)",
+        "País": "Canadá",
+        "País ID": 40,
+        "Ciudad ID": null
+    },
+    {
+        "Código IATA": "YVR",
+        "Nombre": "Aeropuerto Internacional de Vancouver",
+        "Ciudad": "Vancouver",
+        "País": "Canadá",
+        "País ID": 40,
+        "Ciudad ID": 26897
+    },
+    {
+        "Código IATA": "YWG",
+        "Nombre": "Aeropuerto Internacional James Armstrong Richardson",
+        "Ciudad": "Winnipeg",
+        "País": "Canadá",
+        "País ID": 40,
+        "Ciudad ID": 26903
+    },
+    {
+        "Código IATA": "YYY",
+        "Nombre": "Aeropuerto de Mont-Joli",
+        "Ciudad": "Mont-Joli",
+        "País": "Canadá",
+        "País ID": 40,
+        "Ciudad ID": 27443
+    },
+    {
+        "Código IATA": "YYZ",
+        "Nombre": "Aeropuerto Internacional Toronto Pearson",
+        "Ciudad": "Toronto",
+        "País": "Canadá",
+        "País ID": 40,
+        "Ciudad ID": 26895
+    },
+    {
+        "Código IATA": "ZAG",
+        "Nombre": "Aeropuerto de Zagreb-Pleso",
+        "Ciudad": "Zagreb",
+        "País": "Croacia",
+        "País ID": 54,
+        "Ciudad ID": 22674
+    },
+    {
+        "Código IATA": "ZAZ",
+        "Nombre": "Aeropuerto de Zaragoza",
+        "Ciudad": "Zaragoza",
+        "País": "España",
+        "País ID": 215,
+        "Ciudad ID": 14542
+    }
+]
