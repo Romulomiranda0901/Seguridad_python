@@ -3,10 +3,10 @@ import psycopg2
 from unidecode import unidecode
 
 # --- Configuración ---
-DB_HOST = "localhost"
-DB_NAME = "servi"
-DB_USER = "postgres"
-DB_PASSWORD = "jpeh0901"
+DB_HOST = "host"
+DB_NAME = "base datos"
+DB_USER = "usuario"
+DB_PASSWORD = "contraseña"
 JSON_FILE = "aeropuertos.json"
 
 # --- Funciones de Normalización y Limpieza ---

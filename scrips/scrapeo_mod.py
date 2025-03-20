@@ -5,10 +5,10 @@ import psycopg2
 from unidecode import unidecode
 
 # --- Configuración ---
-DB_HOST = "localhost"
-DB_NAME = "servi"
-DB_USER = "postgres"
-DB_PASSWORD = "jpeh0901"
+DB_HOST = "host"
+DB_NAME = "base datos"
+DB_USER = "usuario"
+DB_PASSWORD = "contraseña"
 WIKI_URL = "https://es.m.wikipedia.org/wiki/Anexo:Aeropuertos_seg%C3%BAn_el_c%C3%B3digo_IATA"
 JSON_FILE = "aeropuertos.json"
 

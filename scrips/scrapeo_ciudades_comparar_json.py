@@ -2,10 +2,10 @@ import json
 import psycopg2
 from unidecode import unidecode
 
-DB_HOST = "localhost"
-DB_NAME = "servi"
-DB_USER = "postgres"
-DB_PASSWORD = "jpeh0901"
+DB_HOST = "host"
+DB_NAME = "base datos"
+DB_USER = "usuario"
+DB_PASSWORD = "contraseña"
 INPUT_JSON_FILE = "ciudades_del_mundo.json"
 OUTPUT_JSON_FILE = "ciudades_completadas.json"
 
