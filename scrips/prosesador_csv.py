@@ -45,10 +45,12 @@ print("Archivo CSV leído con éxito, se encontraron", len(df), "registros váli
 print("\nDatos después de la limpieza (primeras filas):")
 print(df.head())
 
+# Crear un diccionario para almacenar resultados por curso
+cursos_dict = {}
+
 # Iterar a través de cada fila del DataFrame
 print("Iniciando la búsqueda de cursos por INSS...")
 for index, row in df.iterrows():
-    # Obtener y validar el INSS
     inss = row['inss']
     if not isinstance(inss, str) or not inss.strip():
         print(f"INSS no válido en fila {index + 1}: {inss}. Saltando este registro.")
@@ -71,21 +73,29 @@ for index, row in df.iterrows():
     if curs_result.empty:
         print(f"No se encontraron cursos para INSS: {inss}.")
     else:
-        print(f"Se encontraron {len(curs_result)} cursos para INSS: {inss}.")
         for curs in curs_result['curs']:
-            # Crear un DataFrame para cada curso
-            curso_df = pd.DataFrame([{
+            # Si el curso no está en el diccionario, inicializarlo
+            if curs not in cursos_dict:
+                cursos_dict[curs] = []
+
+            # Anadir el registro al curso correspondiente
+            cursos_dict[curs].append({
                 'nombre_completo': row['nombre_completo'],
                 'usuario': row['usuario'],
                 'contraseña': row['contraseña']
-            }])
+            })
 
-            # Asegurarse de que el nombre del archivo sea válido
-            safe_curs_name = ''.join(e for e in curs if e.isalnum() or e in (' ', '_')).rstrip()
-            file_name = f"{safe_curs_name}.xlsx"
+# Guardar los resultados en archivos Excel por curso
+for curs, empleados in cursos_dict.items():
+    # Crear un DataFrame para el curso
+    curso_df = pd.DataFrame(empleados)
 
-            # Guardar el DataFrame en un archivo Excel
-            curso_df.to_excel(file_name, index=False)
-            print(f"Archivo creado: {file_name}")
+    # Asegurarse de que el nombre del archivo sea válido
+    safe_curs_name = ''.join(e for e in curs if e.isalnum() or e in (' ', '_')).rstrip()
+    file_name = f"{safe_curs_name}.xlsx"
+
+    # Guardar el DataFrame en un archivo Excel
+    curso_df.to_excel(file_name, index=False)
+    print(f"Archivo creado: {file_name}")
 
 print("Todos los archivos Excel han sido creados con éxito.")
