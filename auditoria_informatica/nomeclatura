@@ -1,0 +1,23 @@
+auditoria_informatica/
+│
+├── auditoria/
+│   ├── __init__.py
+│   ├── auditoria.py
+│   ├── escaneo_red.py
+│   ├── escaneo_puertos.py
+│   ├── inyecciones_sql.py
+│   ├── brute_force_ssh.py
+│   ├── dir_traversal.py
+│   ├── http_methods.py
+│   ├── ssl_check.py
+│   ├── scan_vulnerabilities.py
+│   ├── dns_scan.py
+│   ├── common_passwords.py
+│   ├── trafico_red.py
+│   ├── utils.py
+│   ├── logger.py
+│   └── config.py
+│
+├── generador_informe.py
+├── requerimientos.txt
+└── README.md
