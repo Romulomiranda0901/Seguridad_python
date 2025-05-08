@@ -2,7 +2,7 @@ import pandas as pd
 import os
 
 # Cargar el archivo Excel original
-input_file = 'ruta_del_archivo.xlsx'  # Cambia esto por la ruta de tu archivo
+input_file = 'report(2).xlsx'  # Cambia esto por la ruta de tu archivo
 df = pd.read_excel(input_file)
 
 # Obtener la lista de CURs únicos
