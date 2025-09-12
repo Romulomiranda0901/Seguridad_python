@@ -1,22 +1,29 @@
 import pandas as pd
 import psycopg2
+import requests
 from datetime import datetime
 
 # Configuración de la conexión a la base de datos
 db_config = {
-    'dbname': 'base datos',
-    'user': 'usuario',
-    'password': 'contrasena',
-    'host': 'hist',
+    'dbname': 'siscoga',
+    'user': 'postgres',
+    'password': 'postgres',
+    'host': '192.168.100.36',
     'port': '5432'
 }
 
-# Cargar datos desde un archivo Excel
-excel_file_path = 'report.xlsx'
-df_excel = pd.read_excel(excel_file_path)
+# URL de la API
+api_url = "https://academico.uncpggl.edu.ni:3000/api/grants?token=6806|IesCukVQy4PLUqnMqIBHMuFCSaarT0h89WOsFo3Wce4c0b9c"
+
+# Obtener datos de la API (desactivando la verificación del certificado SSL)
+response = requests.get(api_url, verify=False)
+data = response.json()
+
+# Convertir los datos de la API a un DataFrame
+df_aprobados = pd.DataFrame(data)
 
 # Filtrar solo los registros donde el estado es "Aprobado"
-df_aprobados = df_excel[df_excel['Estado'] == 'Aprobado']
+df_aprobados = df_aprobados[df_aprobados['status_name'] == 'Aprobado']
 
 # Obtener el año actual
 current_year = datetime.now().year
@@ -36,22 +43,22 @@ try:
     df_db = pd.DataFrame(rows_db, columns=['id', 'Apellidos', 'Nombres'])
 
     # Comparar los DataFrames, buscando coincidencias en apellidos y nombres
-    matches = pd.merge(df_aprobados[['Apellidos', 'Nombres', 'Porcentaje Aprobado']], df_db, on=['Apellidos', 'Nombres'], how='inner')
+    matches = pd.merge(df_aprobados[['lastnames', 'firstnames', 'approved_percentage']], df_db, left_on=['lastnames', 'firstnames'], right_on=['Apellidos', 'Nombres'], how='inner')
 
     # Encontrar registros no encontrados
-    non_found = pd.merge(df_aprobados[['Apellidos', 'Nombres', 'Porcentaje Aprobado']], df_db, on=['Apellidos', 'Nombres'], how='outer', indicator=True)
+    non_found = pd.merge(df_aprobados[['lastnames', 'firstnames', 'approved_percentage']], df_db, left_on=['lastnames', 'firstnames'], right_on=['Apellidos', 'Nombres'], how='outer', indicator=True)
     non_found = non_found[non_found['_merge'] == 'left_only']
 
     # Insertar o actualizar registros en la tabla cliente_beca
     for index, row in matches.iterrows():
         id_cliente = row['id']
-        porcentaje = row['Porcentaje Aprobado']
+        porcentaje = row['approved_percentage']
 
         # Verificar si ya existe un registro en cliente_beca
         cursor.execute("""
             SELECT id FROM tesoreria.cliente_beca
             WHERE id_cliente = %s AND activo = 'SI' AND eliminado = 'NO' AND anyo = %s
-        """, (id_cliente,current_year))
+        """, (id_cliente, current_year))
         existing_record = cursor.fetchone()
 
         if existing_record:
@@ -77,7 +84,7 @@ try:
     # Mostrar registros no encontrados
     print("\nRegistros no encontrados:")
     if not non_found.empty:
-        print(non_found[['Apellidos', 'Nombres']])
+        print(non_found[['lastnames', 'firstnames']])
     else:
         print("Todos los registros fueron encontrados.")
 

@@ -1,0 +1,70 @@
+===== FLUJO DE PUERTO IP =====
+2024-12-17 18:48:34 | Ethernet 3: Enviado=0.00 KB, Recibido=0.00 KB
+2024-12-17 18:48:34 | Wi-Fi: Enviado=0.00 KB, Recibido=0.00 KB
+2024-12-17 18:48:35 | Ethernet 3: Enviado=0.00 KB, Recibido=0.00 KB
+2024-12-17 18:48:35 | Wi-Fi: Enviado=0.00 KB, Recibido=0.00 KB
+2024-12-17 18:48:36 | Ethernet 3: Enviado=0.00 KB, Recibido=0.00 KB
+2024-12-17 18:48:36 | Wi-Fi: Enviado=0.00 KB, Recibido=0.00 KB
+2024-12-17 18:48:37 | Ethernet 3: Enviado=0.00 KB, Recibido=0.00 KB
+2024-12-17 18:48:37 | Wi-Fi: Enviado=0.17 KB, Recibido=0.18 KB
+2024-12-17 18:48:38 | Ethernet 3: Enviado=0.00 KB, Recibido=0.00 KB
+2024-12-17 18:48:38 | Wi-Fi: Enviado=0.00 KB, Recibido=0.00 KB
+2024-12-17 18:48:39 | Ethernet 3: Enviado=0.00 KB, Recibido=0.00 KB
+2024-12-17 18:48:39 | Wi-Fi: Enviado=0.00 KB, Recibido=0.00 KB
+2024-12-17 18:48:40 | Ethernet 3: Enviado=0.00 KB, Recibido=0.00 KB
+2024-12-17 18:48:40 | Wi-Fi: Enviado=0.11 KB, Recibido=0.13 KB
+2024-12-17 18:48:41 | Ethernet 3: Enviado=0.00 KB, Recibido=0.00 KB
+2024-12-17 18:48:41 | Wi-Fi: Enviado=0.00 KB, Recibido=0.00 KB
+2024-12-17 18:48:42 | Ethernet 3: Enviado=0.00 KB, Recibido=0.00 KB
+2024-12-17 18:48:42 | Wi-Fi: Enviado=0.00 KB, Recibido=0.00 KB
+
+===== FLUJO DE BLUETOOTH (Red) =====
+2024-12-17 18:48:34 | Conexión de red Bluetooth: Enviado=0.00 KB, Recibido=0.00 KB
+2024-12-17 18:48:35 | Conexión de red Bluetooth: Enviado=0.00 KB, Recibido=0.00 KB
+2024-12-17 18:48:36 | Conexión de red Bluetooth: Enviado=0.00 KB, Recibido=0.00 KB
+2024-12-17 18:48:37 | Conexión de red Bluetooth: Enviado=0.00 KB, Recibido=0.00 KB
+2024-12-17 18:48:38 | Conexión de red Bluetooth: Enviado=0.00 KB, Recibido=0.00 KB
+2024-12-17 18:48:39 | Conexión de red Bluetooth: Enviado=0.00 KB, Recibido=0.00 KB
+2024-12-17 18:48:40 | Conexión de red Bluetooth: Enviado=0.00 KB, Recibido=0.00 KB
+2024-12-17 18:48:41 | Conexión de red Bluetooth: Enviado=0.00 KB, Recibido=0.00 KB
+2024-12-17 18:48:42 | Conexión de red Bluetooth: Enviado=0.00 KB, Recibido=0.00 KB
+
+===== DISPOSITIVOS BLUETOOTH =====
+2024-12-17 18:48:34 | Monitorización de dispositivos Bluetooth solo implementada en Linux.
+2024-12-17 18:48:35 | Monitorización de dispositivos Bluetooth solo implementada en Linux.
+2024-12-17 18:48:36 | Monitorización de dispositivos Bluetooth solo implementada en Linux.
+2024-12-17 18:48:37 | Monitorización de dispositivos Bluetooth solo implementada en Linux.
+2024-12-17 18:48:38 | Monitorización de dispositivos Bluetooth solo implementada en Linux.
+2024-12-17 18:48:39 | Monitorización de dispositivos Bluetooth solo implementada en Linux.
+2024-12-17 18:48:40 | Monitorización de dispositivos Bluetooth solo implementada en Linux.
+2024-12-17 18:48:41 | Monitorización de dispositivos Bluetooth solo implementada en Linux.
+2024-12-17 18:48:42 | Monitorización de dispositivos Bluetooth solo implementada en Linux.
+
+===== FLUJO RESTANTE =====
+2024-12-17 18:48:34 | Conexión de área local* 9: Enviado=0.00 KB, Recibido=0.00 KB
+2024-12-17 18:48:34 | Conexión de área local* 10: Enviado=0.00 KB, Recibido=0.00 KB
+2024-12-17 18:48:34 | Loopback Pseudo-Interface 1: Enviado=0.00 KB, Recibido=0.00 KB
+2024-12-17 18:48:35 | Conexión de área local* 9: Enviado=0.00 KB, Recibido=0.00 KB
+2024-12-17 18:48:35 | Conexión de área local* 10: Enviado=0.00 KB, Recibido=0.00 KB
+2024-12-17 18:48:35 | Loopback Pseudo-Interface 1: Enviado=0.00 KB, Recibido=0.00 KB
+2024-12-17 18:48:36 | Conexión de área local* 9: Enviado=0.00 KB, Recibido=0.00 KB
+2024-12-17 18:48:36 | Conexión de área local* 10: Enviado=0.00 KB, Recibido=0.00 KB
+2024-12-17 18:48:36 | Loopback Pseudo-Interface 1: Enviado=0.00 KB, Recibido=0.00 KB
+2024-12-17 18:48:37 | Conexión de área local* 9: Enviado=0.00 KB, Recibido=0.00 KB
+2024-12-17 18:48:37 | Conexión de área local* 10: Enviado=0.00 KB, Recibido=0.00 KB
+2024-12-17 18:48:37 | Loopback Pseudo-Interface 1: Enviado=0.00 KB, Recibido=0.00 KB
+2024-12-17 18:48:38 | Conexión de área local* 9: Enviado=0.00 KB, Recibido=0.00 KB
+2024-12-17 18:48:38 | Conexión de área local* 10: Enviado=0.00 KB, Recibido=0.00 KB
+2024-12-17 18:48:38 | Loopback Pseudo-Interface 1: Enviado=0.00 KB, Recibido=0.00 KB
+2024-12-17 18:48:39 | Conexión de área local* 9: Enviado=0.00 KB, Recibido=0.00 KB
+2024-12-17 18:48:39 | Conexión de área local* 10: Enviado=0.00 KB, Recibido=0.00 KB
+2024-12-17 18:48:39 | Loopback Pseudo-Interface 1: Enviado=0.00 KB, Recibido=0.00 KB
+2024-12-17 18:48:40 | Conexión de área local* 9: Enviado=0.00 KB, Recibido=0.00 KB
+2024-12-17 18:48:40 | Conexión de área local* 10: Enviado=0.00 KB, Recibido=0.00 KB
+2024-12-17 18:48:40 | Loopback Pseudo-Interface 1: Enviado=0.00 KB, Recibido=0.00 KB
+2024-12-17 18:48:41 | Conexión de área local* 9: Enviado=0.00 KB, Recibido=0.00 KB
+2024-12-17 18:48:41 | Conexión de área local* 10: Enviado=0.00 KB, Recibido=0.00 KB
+2024-12-17 18:48:41 | Loopback Pseudo-Interface 1: Enviado=0.00 KB, Recibido=0.00 KB
+2024-12-17 18:48:42 | Conexión de área local* 9: Enviado=0.00 KB, Recibido=0.00 KB
+2024-12-17 18:48:42 | Conexión de área local* 10: Enviado=0.00 KB, Recibido=0.00 KB
+2024-12-17 18:48:42 | Loopback Pseudo-Interface 1: Enviado=0.00 KB, Recibido=0.00 KB
