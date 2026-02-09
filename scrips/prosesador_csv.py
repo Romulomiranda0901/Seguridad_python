@@ -3,11 +3,11 @@ from sqlalchemy import create_engine
 import os
 
 # Configuración de la conexión a la base de datos
-DB_USER = 'postgres'
-DB_PASSWORD = 'postgres'
-DB_HOST = '192.168.100.36'
+DB_USER = 'sisconga'
+DB_PASSWORD = '1f3aUTSZI5A40lKOQnlp'
+DB_HOST = '192.168.100.4'
 DB_PORT = '5432'
-DB_NAME = 'siscoga'
+DB_NAME = 'sisconga'
 
 
 print("Estableciendo conexión a la base de datos...")
