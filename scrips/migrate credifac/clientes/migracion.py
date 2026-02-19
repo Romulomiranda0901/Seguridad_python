@@ -12,6 +12,42 @@ def migrar_clientes():
     ss_update = sqlserver.cursor()
     my = mysql.cursor(dictionary=True)
 
+    # =========================================================
+    # 🔥 DIAS DE MORA POR CLIENTE
+    # =========================================================
+    print("Obteniendo días de mora...")
+
+    ss.execute("""
+    SELECT
+       cl.codclte,
+       SUM(CASE
+               WHEN last_mov.F_mov IS NOT NULL
+                    AND last_mov.F_mov > last_mov.Ref_F_mov
+                    THEN DATEDIFF(DAY, last_mov.Ref_F_mov, last_mov.F_mov)
+               WHEN last_mov.F_mov IS NULL
+                    AND GETDATE() > last_mov.Ref_F_mov
+                    THEN DATEDIFF(DAY, last_mov.Ref_F_mov, GETDATE())
+               ELSE 0
+           END) AS dias_mora
+    FROM dbo.Prestamos p
+    INNER JOIN dbo.Clientes cl ON cl.codclte = p.codclte
+    INNER JOIN dbo.Planpagos pp ON p.codprestamo = pp.codprestamo
+    OUTER APPLY (
+        SELECT TOP 1 F_mov, Ref_F_mov
+        FROM dbo.cxcdist c
+        WHERE c.codprestamo = pp.codprestamo
+          AND LTRIM(RTRIM(c.cuota)) = LTRIM(RTRIM(pp.cuota))
+        ORDER BY c.F_mov DESC
+    ) last_mov
+    WHERE ISNULL(pp.migrate,0) = 0
+    GROUP BY cl.codclte
+    """)
+
+    mora_map = {r.codclte: r.dias_mora or 0 for r in ss.fetchall()}
+
+    # =========================================================
+    # 🔥 CLIENTES PENDIENTES
+    # =========================================================
     print("Obteniendo clientes pendientes...")
 
     ss.execute("""
@@ -32,11 +68,12 @@ def migrar_clientes():
     migrados = 0
     fallidos = 0
 
+    # =========================================================
     for row in tqdm(rows, desc="Migrando clientes"):
 
         try:
 
-            # ---------- persona_id unico por cedula ----------
+            # ---------- persona_id ----------
             base_persona_id = f"DNI-{row.cedula}"
 
             my.execute("""
@@ -46,7 +83,6 @@ def migrar_clientes():
             """, (base_persona_id + "%",))
 
             total = my.fetchone()["total"]
-
             persona_id = base_persona_id if total == 0 else f"{base_persona_id}-{total+1}"
 
             # ---------- usuario vendedor ----------
@@ -58,7 +94,9 @@ def migrar_clientes():
             u = my.fetchone()
             user_vendedor = u["id"] if u else 1
 
-            # ---------- personas ----------
+            # =========================================================
+            # PERSONAS
+            # =========================================================
             my.execute("SELECT id FROM personas WHERE id=%s", (persona_id,))
             if not my.fetchone():
 
@@ -76,7 +114,9 @@ def migrar_clientes():
                     user_vendedor
                 ))
 
-            # ---------- personas_naturales ----------
+            # =========================================================
+            # PERSONAS NATURALES
+            # =========================================================
             pn, sn = dividir_nombre(row.nombres)
             pa, sa = dividir_nombre(row.apellidos)
 
@@ -104,7 +144,9 @@ def migrar_clientes():
                     user_vendedor
                 ))
 
-            # ---------- telefonos ----------
+            # =========================================================
+            # TELEFONOS
+            # =========================================================
             for t in [tel(row.telefono), tel(row.telefono1)]:
                 if t:
                     my.execute("""
@@ -122,7 +164,9 @@ def migrar_clientes():
                         user_vendedor
                     ))
 
-            # ---------- comentarios ----------
+            # =========================================================
+            # COMENTARIOS
+            # =========================================================
             nota = clean(row.nota)
             if nota:
                 my.execute("""
@@ -138,7 +182,9 @@ def migrar_clientes():
                     user_vendedor
                 ))
 
-            # ---------- direcciones ----------
+            # =========================================================
+            # DIRECCION
+            # =========================================================
             avenida, calle = dividir_dir(row.direccion)
             if not avenida:
                 avenida = "SIN DIRECCION"
@@ -160,7 +206,6 @@ def migrar_clientes():
 
             direccion_id = my.lastrowid
 
-            # ---------- direcciones_personas ----------
             my.execute("""
             INSERT INTO direcciones_personas
             (persona_id,direccion_id,created_at,updated_at,user_id_created,user_id_updated)
@@ -174,15 +219,44 @@ def migrar_clientes():
                 user_vendedor
             ))
 
+            # =========================================================
+            # 🔥 CLIENTES MYSQL
+            # =========================================================
+            dias_mora = mora_map.get(row.codclte, 0)
+
+            my.execute("""
+            INSERT INTO clientes
+            (persona_id,dias_mora,centro_costo_id,
+             created_at,updated_at,user_id_created,user_id_updated)
+            VALUES (%s,%s,%s,%s,%s,%s,%s)
+            """, (
+                persona_id,
+                dias_mora,
+                row.Codsucursal,
+                row.f_reg,
+                row.f_edit,
+                user_vendedor,
+                user_vendedor
+            ))
+
+            cliente_mysql_id = my.lastrowid
+
             mysql.commit()
 
-            # ---------- marcar migrado SQL Server ----------
+            # =========================================================
+            # 🔥 ACTUALIZAR SQL SERVER
+            # =========================================================
             ss_update.execute("""
             UPDATE Clientes
             SET migrate = 1,
-                personal_id = ?
+                personal_id = ?,
+                cliente_id = ?
             WHERE codclte = ?
-            """, (persona_id, row.codclte))
+            """, (
+                persona_id,
+                str(cliente_mysql_id),
+                row.codclte
+            ))
 
             sqlserver.commit()
 
