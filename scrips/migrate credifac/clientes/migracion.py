@@ -12,38 +12,58 @@ def migrar_clientes():
     ss_update = sqlserver.cursor()
     my = mysql.cursor(dictionary=True)
 
-    # =========================================================
-    # 🔥 DIAS DE MORA POR CLIENTE
-    # =========================================================
-    print("Obteniendo días de mora...")
+   # =========================================================
+   # 🔥 DIAS DE MORA POR CLIENTE (INCLUYE LOS QUE ESTAN EN 0)
+   # =========================================================
+   print("Obteniendo días de mora...")
 
-    ss.execute("""
-    SELECT
-       cl.codclte,
-       SUM(CASE
-               WHEN last_mov.F_mov IS NOT NULL
-                    AND last_mov.F_mov > last_mov.Ref_F_mov
-                    THEN DATEDIFF(DAY, last_mov.Ref_F_mov, last_mov.F_mov)
-               WHEN last_mov.F_mov IS NULL
-                    AND GETDATE() > last_mov.Ref_F_mov
-                    THEN DATEDIFF(DAY, last_mov.Ref_F_mov, GETDATE())
-               ELSE 0
-           END) AS dias_mora
-    FROM dbo.Prestamos p
-    INNER JOIN dbo.Clientes cl ON cl.codclte = p.codclte
-    INNER JOIN dbo.Planpagos pp ON p.codprestamo = pp.codprestamo
-    OUTER APPLY (
-        SELECT TOP 1 F_mov, Ref_F_mov
-        FROM dbo.cxcdist c
-        WHERE c.codprestamo = pp.codprestamo
-          AND LTRIM(RTRIM(c.cuota)) = LTRIM(RTRIM(pp.cuota))
-        ORDER BY c.F_mov DESC
-    ) last_mov
-    WHERE ISNULL(pp.migrate,0) = 0
-    GROUP BY cl.codclte
-    """)
+   ss.execute("""
+   WITH cuotas_unicas AS (
+       SELECT
+           pp.codclte,
+           pp.codprestamo,
+           pp.cuota,
+           MIN(CAST(pp.f_mov AS date)) AS fecha_establecida,
+           MAX(ISNULL(pp.amortizacion, 0)) AS amortizacion
+       FROM Planpagos pp
+       GROUP BY pp.codclte, pp.codprestamo, pp.cuota
+   ),
 
-    mora_map = {r.codclte: r.dias_mora or 0 for r in ss.fetchall()}
+   cuotas_en_atraso_no_pagadas AS (
+       SELECT
+           cu.codclte,
+           cu.codprestamo,
+           cu.cuota,
+           cu.fecha_establecida,
+           DATEDIFF(DAY, cu.fecha_establecida, CAST(GETDATE() AS date)) AS dias_atraso_cuota
+       FROM cuotas_unicas cu
+       WHERE cu.fecha_establecida < CAST(GETDATE() AS date)
+         AND cu.amortizacion > 0
+         AND NOT EXISTS (
+               SELECT 1
+               FROM cxcdist d
+               WHERE LTRIM(RTRIM(d.codprestamo)) = LTRIM(RTRIM(cu.codprestamo))
+                 AND d.cuota = cu.cuota
+                 AND d.f_mov IS NOT NULL
+         )
+   ),
+
+   clientes_totales AS (
+       SELECT DISTINCT codclte
+       FROM Planpagos
+   )
+
+   SELECT
+       ct.codclte,
+       ISNULL(SUM(ca.dias_atraso_cuota), 0) AS dias_mora
+   FROM clientes_totales ct
+   LEFT JOIN cuotas_en_atraso_no_pagadas ca
+       ON ca.codclte = ct.codclte
+   GROUP BY ct.codclte
+   """)
+
+   mora_map = {r.codclte: r.dias_mora for r in ss.fetchall()}
+
 
     # =========================================================
     # 🔥 CLIENTES PENDIENTES
@@ -206,6 +226,7 @@ def migrar_clientes():
 
             direccion_id = my.lastrowid
 
+            # ---------- direcciones_personas ----------
             my.execute("""
             INSERT INTO direcciones_personas
             (persona_id,direccion_id,created_at,updated_at,user_id_created,user_id_updated)
@@ -249,6 +270,7 @@ def migrar_clientes():
 
             mysql.commit()
 
+            # ---------- marcar migrado SQL Server ----------
             ss_update.execute("""
             UPDATE Clientes
             SET migrate = 1,
