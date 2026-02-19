@@ -220,32 +220,35 @@ def migrar_clientes():
             ))
 
             # =========================================================
-            # 🔥 CLIENTES MYSQL
+            # 🔥 CLIENTES MYSQL — SOLO SI EXISTE EN mora_map
             # =========================================================
-            dias_mora = mora_map.get(row.codclte, 0)
 
-            my.execute("""
-            INSERT INTO clientes
-            (persona_id,dias_mora,centro_costo_id,
-             created_at,updated_at,user_id_created,user_id_updated)
-            VALUES (%s,%s,%s,%s,%s,%s,%s)
-            """, (
-                persona_id,
-                dias_mora,
-                row.Codsucursal,
-                row.f_reg,
-                row.f_edit,
-                user_vendedor,
-                user_vendedor
-            ))
+            if row.codclte in mora_map:
 
-            cliente_mysql_id = my.lastrowid
+                dias_mora = mora_map[row.codclte] or 0
+
+                my.execute("""
+                INSERT INTO clientes
+                (persona_id,dias_mora,centro_costo_id,
+                 created_at,updated_at,user_id_created,user_id_updated)
+                VALUES (%s,%s,%s,%s,%s,%s,%s)
+                """, (
+                    persona_id,
+                    dias_mora,
+                    row.Codsucursal,
+                    row.f_reg,
+                    row.f_edit,
+                    user_vendedor,
+                    user_vendedor
+                ))
+
+                cliente_mysql_id = my.lastrowid
+
+            else:
+                cliente_mysql_id = None
 
             mysql.commit()
 
-            # =========================================================
-            # 🔥 ACTUALIZAR SQL SERVER
-            # =========================================================
             ss_update.execute("""
             UPDATE Clientes
             SET migrate = 1,
@@ -254,7 +257,7 @@ def migrar_clientes():
             WHERE codclte = ?
             """, (
                 persona_id,
-                str(cliente_mysql_id),
+                str(cliente_mysql_id) if cliente_mysql_id else None,
                 row.codclte
             ))
 
