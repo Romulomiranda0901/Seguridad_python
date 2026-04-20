@@ -159,6 +159,30 @@ def consolidar_clientes_duplicados():
 
             eliminados += 1
 
+    # =========================================================
+    # 🧼 LIMPIAR CÉDULAS
+    # =========================================================
+    print("\n🧼 Limpiando cédulas...")
+
+    cur.execute("""
+        UPDATE Clientes
+        SET cedula =
+            REPLACE(
+            REPLACE(
+            REPLACE(
+            REPLACE(
+            REPLACE(
+            REPLACE(
+            LTRIM(RTRIM(cedula)),
+            ' ', ''),
+            '-', ''),
+            '.', ''),
+            ',', ''),
+            '(', ''),
+            ')', '')
+        WHERE cedula IS NOT NULL
+    """)
+
     cn.commit()
     cn.close()
 
